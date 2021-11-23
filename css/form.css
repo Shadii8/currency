@@ -1,0 +1,30 @@
+.form__label {
+    width: 150px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.form__field {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+.form__button {
+    width: 100%;
+    border: none;
+    background-color: #dd9b69;
+    padding: 10px;
+    border-radius: 5px;
+}
+.form__button:hover {
+    background-color: #EABF9F;
+}
+.form__button:active {
+    background-color: #e9d4c5;
+}
+.form__legend {
+    font-size: x-large;
+    color: #B68973;;
+    border-radius: 5px;
+    padding: 10px;
+}

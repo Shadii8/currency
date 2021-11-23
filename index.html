@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;400&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+<script defer src="js/script.js"></script>
+
+<body>
+    <header class="header">
+        <h1>Kantor walutowy</h1>
+    </header>
+    <div class="container">
+        <form class="form js-form">
+            <fieldset>
+                <legend class="form__legend">Przelicznik walut</legend>
+                <p>
+                    <label>
+                        <span class="form__label">Wpisz ilość PLN:
+                        </span>
+                        <input class="form__field js-pln" type="number" min="0" name="PLN" required>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__label">
+                            Wybierz walute:
+                        </span>
+                        <select class="form__field js-currency" name="Currency">
+                            <option value="eur">EUR</option>
+                            <option value="usd">USD</option>
+                            <option value="aud">AUD</option>
+                        </select>
+                    </label>
+                </p>
+                <button class="form__button">Przelicz</button>
+                <p class="result">Po przeliczeniu masz: <strong class="js-result">N/A</strong></p>
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
