@@ -1,0 +1,7 @@
+.element {
+    width: 1000px;
+    height: 1000px;
+    resize: both;
+    overflow: auto;
+    background-image: url("../images/background.jpeg");
+}

@@ -10,6 +10,7 @@ body {
     font-family: 'Libre Franklin', sans-serif;
     background-color: #FAF3E0;
     color: #1E212D;
+    background-image: url("../images/background.jpeg");
 }
 
 .header {
